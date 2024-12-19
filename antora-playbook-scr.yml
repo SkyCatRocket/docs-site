@@ -1,0 +1,17 @@
+site:
+  title: Documentation
+  start_page: documentation-scr::scr-bscr.adoc  # Page de démarrage
+
+content:
+  sources:
+    - url: C:/Users/adrie/Documents/GIT/documentation-scr
+
+
+
+ui:
+  bundle:
+    url: ui-bundle.zip #Se récupère à https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+output:
+  dir: ./doc-scr

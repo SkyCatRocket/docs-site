@@ -1,0 +1,17 @@
+site:
+  title: Antora Demo Site
+  start_page: component-b::index.adoc
+content:
+  sources:
+  - url: ..\documentation-s2\demo-component-a-main
+    start_path: docs
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+ui:
+  bundle:
+    url: ui-bundle.zip #Se récupère à https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
